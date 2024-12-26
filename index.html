@@ -1,311 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Shivam Pandya</title>
-    <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.png"
+      type="image/x-icon"
+    />
 
     <!-- Font Connect -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- RemixIcon Connect -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
     <!-- swiperJS connect -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 
     <!-- custom (main) css connect -->
-    <link rel="stylesheet" href="./src/css/style.css">
-</head>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- loader -->
     <div id="loader">
-        <h1>Welcome</h1>
-        <h1>to</h1>
-        <h1>My Portfolio</h1>
+      <h1>Welcome</h1>
+      <h1>to</h1>
+      <h1>My Portfolio</h1>
     </div>
 
     <!-- Header -->
     <header id="header" class="header">
-        <div class="container">
-            <nav class="nav">
-                <a href="index.html" class="nav__brand">
-                    <i class="ri-code-s-slash-line"></i>Shivam Pandya
-                </a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#hero" class="nav__link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#qualification" class="nav__link">Qualification</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#service" class="nav__link">Services</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">Roadmaps</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#footer" class="nav__link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="nav__toggle">
-                    <i id="nav-toggle" class="ri-menu-3-line"></i>
-                </div>
-            </nav>
-        </div>
+      <div class="container">
+        <nav class="nav">
+          <a href="index.html" class="nav__brand">
+            <i class="ri-code-s-slash-line"></i>Shivam Pandya
+          </a>
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#hero" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#qualification" class="nav__link">Qualification</a>
+              </li>
+              <li class="nav__item">
+                <a href="#service" class="nav__link">Services</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Roadmaps</a>
+              </li>
+              <li class="nav__item">
+                <a href="#footer" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav__toggle">
+            <i id="nav-toggle" class="ri-menu-3-line"></i>
+          </div>
+        </nav>
+      </div>
     </header>
     <!--= main =-->
     <main class="main">
-        <!--= Hero =-->
-        <section id="hero" class="hero">
-            <div class="container">
-                <div class="d-grid hero__wrapper">
-                    <div class="hero__content">
-                        <h1 class="hero__title">Hi, I am Shivam,<br>a Diploma student</h1>
-                        <p class="hero__description">As a diploma student, I am thrilled to embark on this educational
-                            journey. This phase is crucial for laying the groundwork of foundational skills and
-                            essential knowledge in my chosen field. I look forward to immersing myself in new concepts,
-                            overcoming challenges, and preparing for future career opportunities. With dedication and
-                            enthusiasm, I am eager to learn, grow, and make significant strides in both academic and
-                            personal development during this transformative experience.</p>
-                        <div class="hero__info">
-                            <div class="hero__info-wrapper">
-                                <p class="hero__info-number">05</p>
-                                <h2 class="hero__info-title">Years<br>Experience</h2>
-                            </div>
-                            <div class="hero__info-wrapper">
-                                <p class="hero__info-number">60+</p>
-                                <h2 class="hero__info-title">Projects<br>Completed</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="./src/img/Profile.jpg" alt="Shivam Pandya !" class="hero__img">
-                </div>
-            </div>
-        </section>
-
-        <!--= About =-->
-        <section id="about" class="section about">
-            <div class="container">
-                <div class="section__header">
-                    <h2 class="section__title">About Me</h2>
-                    <span class="section__subtitle">Who am I</span>
-                </div>
-                <div class="d-grid about__wrapper">
-                    <div class="about__content">
-                        <h3 class="about__title">I'm a Professional and Experienced Graphic designer and Frontend
-                            developer.
-                        </h3>
-                        <p class="about__description">I’m a graphic designer and frontend developer who thrives on
-                            blending creativity with technology. I love using Adobe Photoshop and Illustrator to create
-                            stunning visuals, while Adobe InDesign helps me craft polished layouts. For web design, I
-                            often turn to Figma and Adobe XD to bring ideas to life, ensuring a seamless user
-                            experience. My toolkit includes HTML, CSS, and JavaScript, with React.js and Redux for
-                            building dynamic interfaces. I enjoy adding engaging animations with GSAP and Locomotive,
-                            and I also work with Adobe After Effects and Premiere Pro for captivating videos. Whether
-                            it’s editing audio in Adobe Audition or creating quick graphics in Adobe Express and
-                            Firefly, I’m always exploring new ways to express ideas.</p>
-                    </div>
-                    <div class="skills">
-                        <h3 class="skills__title">I've been working with:</h3>
-                        <div class="skills__wrapper">
-                            <div class="skills__content">
-                                <ul class="skills__list">
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Adobe Photoshop</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Adobe Illustrator</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Adobe Lightroom</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Adobe InDesign</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Adobe XD</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Figma</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Adobe After Effects</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Adobe Premier Pro</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Adobe Audition</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Adobe Express(Web)</li>
-                                </ul>
-                            </div>
-                            <div class="skills__content">
-                                <ul class="skills__list">
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Adobe Firefly(Web)</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Wondershare Filmora</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        HTML</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        CSS</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        JavaScript</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        GSAP</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        React.js</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Locomotive</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Tailwind CSS</li>
-                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
-                                        Redux</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--= Qualification =-->
-        <section id="qualification" class="section qualification">
-            <div class="container">
-                <div class="section__header">
-                    <h2 class="section__title">Qualification</h2>
-                    <span class="section__subtitle">Education</span>
-                </div>
-                <!--= Education =-->
-                <div class="qualification__wrapper">
-                    <h3 class="qualification__name">
-                        <i class="ri-booklet-fill"></i>
-                        Education
-                    </h3>
-                    <div class="d-grid qualification__content">
-                        <!--= Education 1 =-->
-                        <div class="qualification__item">
-                            <h3 class="qualification__title">Diploma in Computer engineering.</h3>
-                            <p class="qualification__description">Currently pursuing a Diploma in Computer Engineering
-                                at C.U. Shah Polytechnic, Surendranagar, focusing on computer systems, software
-                                development, and networking.</p>
-                            <span class="qualification__date">2024 - Present</span>
-                        </div>
-                        <!--= Education 2 =-->
-                        <div class="qualification__item">
-                            <h3 class="qualification__title">Frontend Domination Course(Online)</h3>
-                            <p class="qualification__description">Completed an online course at Sheryians Coding School,
-                                specializing in front-end development and user interface design, where I acquired
-                                extensive skills in creating web interfaces.</p>
-                            <span class="qualification__date">2023 - 2024</span>
-                        </div>
-                        <!--= Education 3 =-->
-                        <div class="qualification__item">
-                            <h3 class="qualification__title">Media Editing & content creation Course(Online)</h3>
-                            <p class="qualification__description">Completed an online course at Nikhil Pawar Academy,
-                                where I specialized in media editing techniques, including video and image editing, and
-                                content creation skills.</p>
-                            <span class="qualification__date">2021 - 2022</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--= services =-->
-        <section id="service" class="section service">
-            <div class="container">
-                <div class="section__header">
-                    <h2 class="section__title">Services</h2>
-                    <span class="section__subtitle">What I do</span>
-                </div>
-                <div class="d-grid service__wrapper">
-                    <!--= service card 1 =-->
-                    <div class="service__card">
-                        <div class="service__icon">
-                            <i class="ri-palette-line"></i>
-                        </div>
-                        <h3 class="service__title">Graphic<br> Designing</h3>
-                    </div>
-                    <!--= service card 2 =-->
-                    <div class="service__card">
-                        <div class="service__icon">
-                            <i class="ri-image-line"></i>
-                        </div>
-                        <h3 class="service__title">Photo<br> Editing</h3>
-                    </div>
-                    <!--= service card 3 =-->
-                    <div class="service__card">
-                        <div class="service__icon">
-                            <i class="ri-video-line"></i>
-                        </div>
-                        <h3 class="service__title">Video<br> Editing</h3>
-                    </div>
-                    <!--= service card 4 =-->
-                    <div class="service__card">
-                        <div class="service__icon">
-                            <i class="ri-folder-music-line"></i>
-                        </div>
-                        <h3 class="service__title">Audio<br> Editing</h3>
-                    </div>
-                    <!--= service card 5 =-->
-                    <div class="service__card">
-                        <div class="service__icon">
-                            <i class="ri-code-s-slash-fill"></i>
-                        </div>
-                        <h3 class="service__title">Frontend<br> Coding</h3>
-                    </div>
-                    <!--= service card 6 =-->
-                    <div class="service__card">
-                        <div class="service__icon">
-                            <i class="ri-slideshow-line"></i>
-                        </div>
-                        <h3 class="service__title">Content<br> Creation</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--======= Contact =======-->
-        <section id="contact" class="section contact">
-            <div class="container">
-                <div class="d-grid contact__wrapper">
-                    <div class="contact__content">
-                        <h2 class="contact__title">I have started creating different roadmaps. Do you want to tour it?
-                        </h2>
-                        <p class="contact__description">
-                            This is one of my new works. I create complete roadmaps of various topics in the world of
-                            computers so that students who wish to learn any subject do not have to surf the web to find
-                            resources. Here you will find roadmaps from beginner to advanced level along with resources
-                            for free.
-                        </p>
-                    </div>
-                    <div class="contact__btn">
-                        <a href="https://roadmap.sh/u/shivam8118" target="_blank" class="btn btn--secondary">See
-                            Roadmaps.</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    </main>
-    <footer id="footer" class="footer">
+      <!--= Hero =-->
+      <section id="hero" class="hero">
         <div class="container">
-            <div class="d-grid footer__wrapper">
-                <div class="footer__content">
-                    <h4 class="footer__title">Email Me</h4>
-                    <a href="mailto:smpandya2008@gmail.com" class="footer__contact">smpandya2008@gmail.com</a>
+          <div class="d-grid hero__wrapper">
+            <div class="hero__content">
+              <h1 class="hero__title">
+                Hi, I am Shivam,<br />a Diploma student
+              </h1>
+              <p class="hero__description">
+                As a diploma student, I am thrilled to embark on this
+                educational journey. This phase is crucial for laying the
+                groundwork of foundational skills and essential knowledge in my
+                chosen field. I look forward to immersing myself in new
+                concepts, overcoming challenges, and preparing for future career
+                opportunities. With dedication and enthusiasm, I am eager to
+                learn, grow, and make significant strides in both academic and
+                personal development during this transformative experience.
+              </p>
+              <div class="hero__info">
+                <div class="hero__info-wrapper">
+                  <p class="hero__info-number">05</p>
+                  <h2 class="hero__info-title">Years<br />Experience</h2>
                 </div>
+                <div class="hero__info-wrapper">
+                  <p class="hero__info-number">60+</p>
+                  <h2 class="hero__info-title">Projects<br />Completed</h2>
+                </div>
+              </div>
             </div>
-            <p class="footer__copyright"> &copy; 2024 Shivam Pandya. All Rights Reserved.</p>
+            <img
+              src="./src/img/Profile.jpg"
+              alt="Shivam Pandya !"
+              class="hero__img"
+            />
+          </div>
         </div>
+      </section>
+
+      <!--= About =-->
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">Who am I</span>
+          </div>
+          <div class="d-grid about__wrapper">
+            <div class="about__content">
+              <h3 class="about__title">
+                I'm a Professional and Experienced Graphic designer and Frontend
+                developer.
+              </h3>
+              <p class="about__description">
+                I’m a graphic designer and frontend developer who thrives on
+                blending creativity with technology. I love using Adobe
+                Photoshop and Illustrator to create stunning visuals, while
+                Adobe InDesign helps me craft polished layouts. For web design,
+                I often turn to Figma and Adobe XD to bring ideas to life,
+                ensuring a seamless user experience. My toolkit includes HTML,
+                CSS, and JavaScript, with React.js and Redux for building
+                dynamic interfaces. I enjoy adding engaging animations with GSAP
+                and Locomotive, and I also work with Adobe After Effects and
+                Premiere Pro for captivating videos. Whether it’s editing audio
+                in Adobe Audition or creating quick graphics in Adobe Express
+                and Firefly, I’m always exploring new ways to express ideas.
+              </p>
+            </div>
+            <div class="skills">
+              <h3 class="skills__title">I've been working with:</h3>
+              <div class="skills__wrapper">
+                <div class="skills__content">
+                  <ul class="skills__list">
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Adobe Photoshop
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Adobe Illustrator
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Adobe Lightroom
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Adobe InDesign
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Adobe XD
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Figma
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Adobe After Effects
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Adobe Premier Pro
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Adobe Audition
+                    </li>
+                  </ul>
+                </div>
+                <div class="skills__content">
+                  <ul class="skills__list">
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Adobe Express(Web)
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Adobe Firefly(Web)
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Wondershare Filmora
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> HTML
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> CSS
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> JavaScript
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> GSAP
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Locomotive
+                    </li>
+                    <li class="skills__item">
+                      <i class="ri-arrow-right-s-fill"></i> Tailwind CSS
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--= Qualification =-->
+      <section id="qualification" class="section qualification">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">Education</span>
+          </div>
+          <!--= Education =-->
+          <div class="qualification__wrapper">
+            <h3 class="qualification__name">
+              <i class="ri-booklet-fill"></i>
+              Education
+            </h3>
+            <div class="d-grid qualification__content">
+              <!--= Education 1 =-->
+              <div class="qualification__item">
+                <h3 class="qualification__title">
+                  Media Editing & content creation Course(Online)
+                </h3>
+                <p class="qualification__description">
+                  Completed an online course at Nikhil Pawar Academy, where I
+                  specialized in media editing techniques, including video and
+                  image editing, and content creation skills.
+                </p>
+                <span class="qualification__date">2021 - 2022</span>
+              </div>
+              <!--= Education 2 =-->
+              <div class="qualification__item">
+                <h3 class="qualification__title">
+                  Frontend Domination Course(Online)
+                </h3>
+                <p class="qualification__description">
+                  Completed an online course at Sheryians Coding School,
+                  specializing in front-end development and user interface
+                  design, where I acquired extensive skills in creating web
+                  interfaces.
+                </p>
+                <span class="qualification__date">2023 - 2024</span>
+              </div>
+              <!--= Education 3 =-->
+              <div class="qualification__item">
+                <h3 class="qualification__title">
+                  Full Stack Web development Course(Online)
+                </h3>
+                <p class="qualification__description">
+                  Completed an online course at 30DaysCoding, specializing in
+                  full-stack web development, where I gained skills in HTML,
+                  CSS, JavaScript, SQL, Python, MERN, React, Node.js, and
+                  Blockchain.
+                </p>
+                <span class="qualification__date">2025 - 2026</span>
+              </div>
+              <!--= Education 4 =-->
+              <div class="qualification__item">
+                <h3 class="qualification__title">
+                  Diploma in Computer engineering.
+                </h3>
+                <p class="qualification__description">
+                  Currently pursuing a Diploma in Computer Engineering at C.U.
+                  Shah Polytechnic, Surendranagar, focusing on computer systems,
+                  software development, and networking.
+                </p>
+                <span class="qualification__date">2024 - Present</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--= services =-->
+      <section id="service" class="section service">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What I do</span>
+          </div>
+          <div class="d-grid service__wrapper">
+            <!--= service card 1 =-->
+            <div class="service__card">
+              <div class="service__icon">
+                <i class="ri-palette-line"></i>
+              </div>
+              <h3 class="service__title">
+                Graphic<br />
+                Designing
+              </h3>
+            </div>
+            <!--= service card 2 =-->
+            <div class="service__card">
+              <div class="service__icon">
+                <i class="ri-image-line"></i>
+              </div>
+              <h3 class="service__title">
+                Photo<br />
+                Editing
+              </h3>
+            </div>
+            <!--= service card 3 =-->
+            <div class="service__card">
+              <div class="service__icon">
+                <i class="ri-video-line"></i>
+              </div>
+              <h3 class="service__title">
+                Video<br />
+                Editing
+              </h3>
+            </div>
+            <!--= service card 4 =-->
+            <div class="service__card">
+              <div class="service__icon">
+                <i class="ri-folder-music-line"></i>
+              </div>
+              <h3 class="service__title">
+                Audio<br />
+                Editing
+              </h3>
+            </div>
+            <!--= service card 5 =-->
+            <div class="service__card">
+              <div class="service__icon">
+                <i class="ri-code-s-slash-fill"></i>
+              </div>
+              <h3 class="service__title">
+                Frontend<br />
+                Coding
+              </h3>
+            </div>
+            <!--= service card 6 =-->
+            <div class="service__card">
+              <div class="service__icon">
+                <i class="ri-slideshow-line"></i>
+              </div>
+              <h3 class="service__title">
+                Content<br />
+                Creation
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--======== footer =====-->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="d-grid footer__wrapper">
+          <div class="footer__content">
+            <h4 class="footer__title">Follow Me</h4>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <i class="ri-youtube-fill"></i>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <i class="ri-instagram-fill"></i>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <i class="ri-github-fill"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__content">
+            <h4 class="footer__title">Email Me</h4>
+            <a href="mailto:smpandya2008@gmail.com" class="footer__contact"
+              >smpandya2008@gmail.com</a
+            >
+          </div>
+        </div>
+        <p class="footer__copyright">
+          Made with &#128150; &copy; By Shivam Pandya. All Rights Reserved
+        </p>
+      </div>
     </footer>
 
     <!-- SwiperJS connect -->
@@ -316,6 +413,5 @@
 
     <!-- Custom (main) JS -->
     <script src="./src/js/script.js"></script>
-</body>
-
+  </body>
 </html>
