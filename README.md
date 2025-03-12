@@ -1,4 +1,4 @@
-# Shivam Pandya's Portfolio
+# Shivam Pandya's Portfolio [View Live]([https://www.google.com](https://shivam-pandya-8118.github.io/Portfolio/))
 
 Welcome to my portfolio! I’m Shivam, a diploma student, and I'm excited to share my work and skills with you.
 
@@ -11,9 +11,6 @@ As a diploma student, I am thrilled to embark on this educational journey. This 
 ### Stats:
 - **5+** Years of Experience
 - **60+** Projects Completed
-
-![Shivam Pandya](./src/img/Profile.jpg) <!-- Image will be displayed from your assets -->
-
 ---
 
 ## 🧑‍💻 About Me
