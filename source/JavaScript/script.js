@@ -899,3 +899,77 @@ function loadBlogPost(postId) {
     document.getElementById("post-content").innerHTML = post.content;
   }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const mobileInput = document.getElementById("mobile");
+
+  // Format on input
+  mobileInput.addEventListener("input", function (e) {
+    let value = e.target.value;
+
+    // Remove all non-digit characters except + symbol
+    value = value.replace(/[^\d+]/g, "");
+
+    // If doesn't start with +91, add it
+    if (!value.startsWith("+91")) {
+      // If starts with 91, add + at the beginning
+      if (value.startsWith("91")) {
+        value = "+" + value;
+      }
+      // If starts with +, ensure it's followed by 91
+      else if (value.startsWith("+")) {
+        if (!value.startsWith("+91")) {
+          value = "+91" + value.substring(1);
+        }
+      }
+      // Otherwise, add +91 at the beginning
+      else {
+        value = "+91" + value;
+      }
+    }
+
+    // Format with spaces - one after +91 and one after first 5 digits
+    const digitsAfterCode = value.substring(3).replace(/\D/g, "");
+
+    if (digitsAfterCode.length > 0) {
+      value = "+91 " + digitsAfterCode;
+
+      if (digitsAfterCode.length > 5) {
+        value =
+          "+91 " +
+          digitsAfterCode.substring(0, 5) +
+          " " +
+          digitsAfterCode.substring(5);
+      }
+    }
+
+    // Limit to correct length (+91 + space + 10 digits + 1 space)
+    if (value.length > 15) {
+      value = value.substring(0, 15);
+    }
+
+    e.target.value = value;
+  });
+
+  // Format on blur to ensure proper format
+  mobileInput.addEventListener("blur", function (e) {
+    let value = e.target.value;
+
+    // If empty, don't format
+    if (!value) return;
+
+    // Ensure it has proper format
+    const digitsOnly = value.replace(/\D/g, "");
+    const lastTenDigits = digitsOnly.substring(
+      Math.max(0, digitsOnly.length - 10)
+    );
+
+    if (lastTenDigits.length === 10) {
+      e.target.value =
+        "+91 " +
+        lastTenDigits.substring(0, 5) +
+        " " +
+        lastTenDigits.substring(5);
+    }
+  });
+});
