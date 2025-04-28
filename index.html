@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Shivam Pandya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="./source/Images/FavIcon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./source/CSS/style.css">
+</head>
+
+<body>
+    <!-- Loading Animation -->
+    <div class="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" data-page="home">
+                <span style="font-weight: 600;">Portfolio</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#" data-page="home">Home</a></li>
+                <li><a href="#" data-page="about">About</a></li>
+                <li><a href="#" data-page="projects">Projects</a></li>
+                <!-- <li><a href="#" data-page="blog">Blog</a></li> -->
+                <!-- <li><a href="#" data-page="testimonials">Testimonials</a></li> -->
+                <li><a href="#" data-page="contact">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div class="page active" id="home">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-greeting">Hello 👋</div>
+                        <h1 class="hero-name">I'm Shivam Pandya</h1>
+                        <div class="hero-job">Graphic Designer | Frontend Developer</div>
+                        <p class="hero-description">
+                            As a Graphic Designer and Frontend Developer, I create seamless digital experiences that are
+                            both aesthetically striking and technically sound. With a deep appreciation for design
+                            principles and responsive development, I turn ideas into pixel-perfect realities that
+                            resonate with users.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#" class="btn btn-primary">View Resume</a>
+                            <a href="#" class="btn btn-outline" data-page="contact">Contact Me!</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-bg"></div>
+                        <img src="./source/Images/Profile_Picture.jpg" alt="Shivam Pandya Profile Picture"
+                            class="profile-pic">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Page -->
+    <div class="page" id="about">
+        <section class="section about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Get to know me better, my journey, skills, and interests</p>
+                </div>
+
+                <div class="about-content">
+                    <p class="about-text">
+                        <span class="highlight">Hello</span>
+                        Hi there! I'm a passionate Graphic Designer and Frontend Developer with over 5 years of
+                        experience bringing creative visions to life across web and digital platforms. I work with a
+                        wide range of tools—from Adobe Photoshop, Illustrator, Lightroom, InDesign, and XD to motion and
+                        video tools like After Effects, Premiere Pro, Audition, Filmora, Adobe Express, and Firefly. On
+                        the frontend side, I specialize in crafting responsive, interactive experiences using HTML, CSS,
+                        JavaScript, ReactJS, Tailwind CSS, GSAP, and Locomotive. I’m all about blending strong visuals
+                        with clean, efficient code. When I’m not creating, I’m probably exploring design trends, jamming
+                        to music, or taking photos outdoors for inspiration.
+                    </p>
+
+                    <div class="bento-grid">
+                        <!-- Books Section -->
+                        <div class="bento-item">
+                            <div class="bento-item-header">
+                                <h3 class="bento-item-title">Books I Love</h3>
+                                <i class="fas fa-book bento-item-icon"></i>
+                            </div>
+                            <div class="books-carousel">
+                                <div class="books-slider">
+                                    <div class="book-card">
+                                        <img src="./source/Images/Books/Book_Bhagvad_Geeta.jpg" alt="Book">
+                                        <div class="book-title">Bhagvad Geeta</div>
+                                    </div>
+                                    <div class="book-card">
+                                        <img src="./source/Images/Books/Book_Atomic_Habits.jpg" alt="Book">
+                                        <div class="book-title">Atomic Habits</div>
+                                    </div>
+                                    <div class="book-card">
+                                        <img src="./source/Images/Books/Book_The_Hidden_Hindu.jpg" alt="Book">
+                                        <div class="book-title">The Hidden Hindu</div>
+                                    </div>
+                                    <div class="book-card">
+                                        <img src="./source/Images/Books/Book_Ikigai.jpg" alt="Book">
+                                        <div class="book-title">IKIGAI</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Education Section -->
+                        <div class="bento-item">
+                            <div class="bento-item-header">
+                                <h3 class="bento-item-title">Education</h3>
+                                <i class="fas fa-graduation-cap bento-item-icon"></i>
+                            </div>
+                            <div class="education-card">
+                                <div class="education-header">
+                                    <img src="./source/Images/Education/Diploma.png" alt="University Logo"
+                                        class="education-logo">
+                                    <div class="education-name">C. U. Shah Govt. Polytechnic - Surendranagar, Gujarat.
+                                    </div>
+                                </div>
+                                <div class="education-degree">Diploma in Computer Engineering</div>
+                                <div class="education-date">2024 - Present</div>
+                            </div>
+                        </div>
+
+                        <!-- Skills Section -->
+                        <div class="bento-item">
+                            <div class="bento-item-header">
+                                <h3 class="bento-item-title">Skills</h3>
+                                <i class="fas fa-code bento-item-icon"></i>
+                            </div>
+                            <div class="skills-list">
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">ReactJS</div>
+                                        <div class="skill-level">80%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">Python</div>
+                                        <div class="skill-level">55%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 55%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">Git/GitHub</div>
+                                        <div class="skill-level">40%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 40%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">Framer</div>
+                                        <div class="skill-level">80%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">Adobe Photoshop</div>
+                                        <div class="skill-level">95%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">Adobe Illustrator</div>
+                                        <div class="skill-level">80%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">Figma</div>
+                                        <div class="skill-level">70%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <div class="skill-name">Adobe After Effects</div>
+                                        <div class="skill-level">70%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Publications Section -->
+                        <div class="bento-item">
+                            <div class="bento-item-header">
+                                <h3 class="bento-item-title">Publications</h3>
+                                <i class="fas fa-newspaper bento-item-icon"></i>
+                            </div>
+                            <div class="publications-header">
+                                <div class="filter-buttons">
+                                    <button class="filter-btn active" data-filter="all">All</button>
+                                    <button class="filter-btn" data-filter="article">Articles</button>
+                                    <button class="filter-btn" data-filter="ppt">PPTs</button>
+                                    <button class="filter-btn" data-filter="book">Books</button>
+                                </div>
+                            </div>
+                            <div class="publications-grid">
+                                <div class="publication-card" data-type="book">
+                                    <span class="publication-type">Book</span>
+                                    <h4 class="publication-title">Scripting Language Python</h4>
+                                    <div class="publication-journal">CUSP Surendranagar</div>
+                                    <div class="publication-date">May 2025</div>
+                                    <a href="" class="publication-link">Coming Soon <i
+                                            class="fas fa-external-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Notes Section -->
+                        <div class="bento-item">
+                            <div class="bento-item-header">
+                                <h3 class="bento-item-title">Personal Notes</h3>
+                                <i class="fas fa-sticky-note bento-item-icon"></i>
+                            </div>
+                            <p>
+                                I believe in continuous learning and growth. Every day presents an opportunity to learn
+                                something new and improve. My goal is to create technology that makes a positive impact
+                                on people's lives.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Projects Page -->
+    <div class="page" id="projects">
+        <section class="section projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Projects</h2>
+                    <p class="section-subtitle">A collection of my most significant work and personal projects</p>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <img src="./source/Images/Projects/Study_Sync.jpg" alt="Project" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Study Sync</h3>
+                            <p class="project-description">
+                                Your ultimate academic task Manager.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Local storage</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://shivam-pandya-8118.github.io/Study-Sync/" target="_blank"
+                                    class="project-link"><i class="fas fa-globe"></i> Website</a>
+                                <a href="https://github.com/shivam-pandya-8118/Study-Sync" target="_blank"
+                                    class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Blog Page -->
+    <div class="page" id="blog">
+        <section class="section blog">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Blog</h2>
+                    <p class="section-subtitle">Thoughts, tutorials, and insights from my journey as a developer</p>
+                </div>
+                <div class="blog-grid">
+                    <!-- Blog Post 1 -->
+                    <div class="blog-card">
+                        <img src="./source/Images/Profile_Picture.jpg" alt="Blog Post" class="blog-image">
+                        <div class="blog-content">
+                            <div class="blog-date">April 15, 2023</div>
+                            <h3 class="blog-title">How to Build a React App with TypeScript</h3>
+                            <p class="blog-excerpt">
+                                Learn how to set up and build a React application using TypeScript to improve code
+                                quality and developer experience.
+                            </p>
+                            <a href="#" class="blog-link" data-post="1">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Blog Post 2 -->
+                    <div class="blog-card">
+                        <img src="./source/Images/Profile_Picture.jpg" alt="Blog Post" class="blog-image">
+                        <div class="blog-content">
+                            <div class="blog-date">March 22, 2023</div>
+                            <h3 class="blog-title">The Future of Web Development: What to Expect in 2024</h3>
+                            <p class="blog-excerpt">
+                                Explore the upcoming trends, technologies, and paradigms that will shape web development
+                                in the coming year.
+                            </p>
+                            <a href="#" class="blog-link" data-post="2">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Blog Post 3 -->
+                    <div class="blog-card">
+                        <img src="./source/Images/Profile_Picture.jpg" alt="Blog Post" class="blog-image">
+                        <div class="blog-content">
+                            <div class="blog-date">February 10, 2023</div>
+                            <h3 class="blog-title">Optimizing React Performance: A Comprehensive Guide</h3>
+                            <p class="blog-excerpt">
+                                Discover practical techniques and best practices for improving the performance of your
+                                React applications.
+                            </p>
+                            <a href="#" class="blog-link" data-post="3">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Blog Post 4 -->
+                    <div class="blog-card">
+                        <img src="./source/Images/Profile_Picture.jpg" alt="Blog Post" class="blog-image">
+                        <div class="blog-content">
+                            <div class="blog-date">January 5, 2023</div>
+                            <h3 class="blog-title">Building Accessible Web Applications: Why It Matters</h3>
+                            <p class="blog-excerpt">
+                                Learn about the importance of web accessibility and how to implement it in your projects
+                                for a better user experience.
+                            </p>
+                            <a href="#" class="blog-link" data-post="4">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Testimonials Section (part of About page) -->
+    <div class="page" id="testimonials">
+        <section class="section testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Testimonials</h2>
+                    <p class="section-subtitle">What clients and colleagues say about working with me</p>
+                </div>
+                <div class="testimonials-slider">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            John is an exceptional developer who consistently delivers high-quality work. His attention
+                            to detail
+                            and problem-solving skills are outstanding. It was a pleasure working with him on our
+                            project.
+                        </p>
+                        <div class="testimonial-client">
+                            <img src="./source/Images/Profile_Picture.jpg" alt="Client" class="client-image">
+                            <div class="client-info">
+                                <h4 class="client-name">Sarah Johnson</h4>
+                                <p class="client-position">Product Manager, Adobe</p>
+                                <div class="testimonial-rating">
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            Working with John was a game-changer for our startup. He not only delivered a fantastic
+                            website but also
+                            provided valuable insights that improved our overall product. Highly recommended!
+                        </p>
+                        <div class="testimonial-client">
+                            <img src="./source/Images/Profile_Picture.jpg" alt="Client" class="client-image">
+                            <div class="client-info">
+                                <h4 class="client-name">Michael Chen</h4>
+                                <p class="client-position">CEO, TechStart</p>
+                                <div class="testimonial-rating">
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            John has an excellent eye for design and a deep understanding of user experience. He
+                            transformed our outdated
+                            website into a modern, responsive platform that our customers love.
+                        </p>
+                        <div class="testimonial-client">
+                            <img src="./source/Images/Profile_Picture.jpg" alt="Client" class="client-image">
+                            <div class="client-info">
+                                <h4 class="client-name">Emily Rodriguez</h4>
+                                <p class="client-position">Marketing Director, GlobalBrand</p>
+                                <div class="testimonial-rating">
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            As a fellow developer, I've had the pleasure of collaborating with John on several projects.
+                            His code is clean,
+                            well-documented, and follows best practices. He's a true professional.
+                        </p>
+                        <div class="testimonial-client">
+                            <img src="./source/Images/Profile_Picture.jpg" alt="Client" class="client-image">
+                            <div class="client-info">
+                                <h4 class="client-name">David Kim</h4>
+                                <p class="client-position">Senior Developer, TechCorp</p>
+                                <div class="testimonial-rating">
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="fas fa-star-half-alt"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Page -->
+    <div class="page" id="contact">
+        <section class="section contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Have a project in mind or want to chat? Feel free to reach out!</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name <span style="color: #ff0000;">*</span></label>
+                                <input type="text" id="name" class="form-input" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mobile" class="form-label">Mobile Number</label>
+                                <input type="tel" id="mobile" class="form-input" placeholder="Your Mobile Number">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email <span
+                                        style="color: #ff0000;">*</span></label>
+                                <input type="email" id="email" class="form-input" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="interest" class="form-label">Interested In <span
+                                        style="color: #ff0000;">*</span></label>
+                                <select id="interest" class="form-select" required>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="website">Website Development</option>
+                                    <option value="mobile">Mobile Development</option>
+                                    <option value="photo">Photo Editing</option>
+                                    <option value="video">Video Editing</option>
+                                    <option value="audio">Audio Editing</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group" id="otherInterestGroup" style="display: none;">
+                                <label for="otherInterest" class="form-label">Please Specify</label>
+                                <input type="text" id="otherInterest" class="form-input"
+                                    placeholder="Specify your interest">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message <span
+                                        style="color: #ff0000;">*</span></label>
+                                <textarea id="message" class="form-textarea" placeholder="Your Message"
+                                    required></textarea>
+                            </div>
+                            <div class="form-buttons">
+                                <button type="button" id="clearForm" class="btn btn-outline">Clear</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="social-links">
+                        <h3 class="social-title">Connect With Me</h3>
+                        <p class="social-description">
+                            Feel free to reach out through any of these platforms. I'm always open to new opportunities
+                            and collaborations.
+                        </p>
+                        <div class="social-icons">
+                            <a href="mailto:john@example.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Blog Post Template -->
+    <div class="page" id="blog-post">
+        <div class="blog-post">
+            <div class="post-header">
+                <a href="#" class="back-button" data-page="blog"><i class="fas fa-arrow-left"></i> Back to Blog</a>
+                <img src="https://via.placeholder.com/800x400" alt="Blog Post" class="post-image" id="post-image">
+                <h1 class="post-title" id="post-title">Blog Post Title</h1>
+                <div class="post-meta">
+                    <div class="post-meta-item"><i class="far fa-calendar"></i> <span id="post-date">January 1,
+                            2023</span></div>
+                    <div class="post-meta-item"><i class="far fa-user"></i> <span id="post-author">John Doe</span></div>
+                    <div class="post-meta-item"><i class="far fa-folder"></i> <span id="post-category">Web
+                            Development</span></div>
+                </div>
+            </div>
+            <div class="post-content" id="post-content">
+                <!-- Content will be loaded dynamically -->
+            </div>
+            <div class="author-signature">
+                <img src="./source/Images/Profile_Picture.jpg" alt="Author" class="author-image">
+                <div class="author-info">
+                    <h4 class="author-name">John Doe</h4>
+                    <p class="author-bio">Full Stack Developer passionate about creating beautiful and functional web
+                        experiences.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">&copy; 2025 Shivam Pandya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./source/JavaScript/script.js"></script>
+</body>
+
+</html>
